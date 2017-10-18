@@ -1,0 +1,94 @@
+h1 {
+  text-align: center;
+}
+
+.contaner {
+
+}
+
+form {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.radio {
+
+}
+
+ul {
+  list-style-type: none;
+}
+
+h3 {
+  font-size: 13px;
+  font-style: oblique;
+}
+
+body {
+  background-color: gray;
+}
+
+#survey-box {
+  border-radius: 5px;
+  background-color: white;
+  padding: 20px;
+  min-height: 100%;
+
+}
+
+#submitButton {
+  background: #556384;
+}
+.classical{
+  background-color: black;
+}
+.alternative {
+  background-color: blue;
+}
+
+.country {
+  background-color: red;
+}
+
+.Dance {
+  background-color: green;
+}
+
+.Electronic {
+  background-color: white;
+}
+
+.Hip-hop {
+  background-color: purple;
+}
+
+.Jazz {
+  background-color: orange;
+}
+
+.Pop{
+  background-color: yellow;
+}
+
+.RandB {
+  background-color: brown;
+}
+
+.Reggae {
+  background-color: pink;
+}
+
+.Rock{
+  background-color: lightblue;
+}
+
+.Singer-Songwriter {
+  background-color: magenta;
+}
+h3 {
+  color: white;
+}
+
+li {
+  text-indent: -1000px;
+}

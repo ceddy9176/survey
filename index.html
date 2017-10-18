@@ -2,9 +2,151 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Survey</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js" type="text/javascript"></script>
+    <script src="js/scripts.js" type="text/javascript"></script>
   </head>
   <body>
+  <div class="container">
+    <h1>Survey</h1>
+    <div id="survey-box">
+      <form id="name">
+        <input type="text" id="inputName" name="firstname" placeholder="Your name...">
+      </form>
+      <div class="radio">
+        <label><input type="radio" name="species" value="human"> human</label>
+      </div>
+      <div class="radio">
+        <label>
+      <input type="radio" name="species" value="notHuman"> not human</label>
+      </div>
+      <div class="form-group">
+        <label for="born">Date of birth:</label>
+        <input id="born" class="form-control" type="date">
+      </div>
+      <div class="radio">
+        <label>
+        <input type="radio" name="music" value="Altenative"> Altenative</label>
+      </div>
+      <div class="radio">
+        <label>
+      <input type="radio" name="music" value="Classical"> Classical</label>
+      </div>
+      <div class="radio">
+        <label>
+      <input type="radio" name="music" value="Country"> Country</label>
+      </div>
+      <div class="radio">
+        <label>
+      <input type="radio" name="music" value="Dance"> Dance</label>
+      </div>
+      <div class="radio">
+        <label>
+      <input type="radio" name="music" value="Electronic"> Electronic</label>
+      </div>
+      <div class="radio">
+        <label>
+      <input type="radio" name="music" value="Hip hop"> Hip hop</label>
+      </div>
+      <div class="radio">
+        <label>
+      <input type="radio" name="music" value="Jazz"> Jazz</label>
+      </div>
+      <div class="radio">
+        <label>
+      <input type="radio" name="music" value="Pop"> Pop</label>
+      </div>
+      <div class="radio">
+        <label>
+      <input type="radio" name="music" value="R&B"> R&B</label>
+      </div>
+      <div class="radio">
+        <label>
+      <input type="radio" name="music" value="Reggae"> Reggae</label>
+      </div>
+      <div class="radio">
+        <label>
+      <input type="radio" name="music" value="Rock"> Rock</label>
+      </div>
+      <div class="radio">
+        <label>
+      <input type="radio" name="music" value="Singer/Songwriter"> Singer/Songwriter</label>
+      </div>
 
+      <button id="submitButton" type="submit" name="btn"> submit</button>
+  </div>
+    <div class="row">
+
+      <div class="col-md-1">
+        <h3>Alternative</h3>
+        <ul class="alternative" >
+        </ul>
+      </div>
+      <div class="col-md-1">
+        <h3>Classical</h3>
+        <ul class="classical" >
+        </ul>
+      </div>
+      <div class="col-md-1">
+        <h3>Country</h3>
+        <ul class="country" >
+        </ul>
+      </div>
+      <div class="col-md-1">
+        <h3>Dance</h3>
+        <ul class="Dance" >
+
+        </ul>
+      </div>
+      <div class="col-md-1">
+        <h3>Electronic</h3>
+        <ul class="Electronic" >
+
+      </div>
+      <div class="col-md-1">
+        <h3>Hip hop</h3>
+        <ul class="Hip-hop" >
+
+        </ul>
+      </div>
+      <div class="col-md-1">
+        <h3>Jazz</h3>
+        <ul class="Jazz" >
+
+        </ul>
+      </div>
+      <div class="col-md-1">
+        <h3>Pop</h3>
+        <ul class="Pop" >
+
+        </ul>
+      </div>
+      <div class="col-md-1">
+        <h3>R&B</h3>
+        <ul class="RandB" >
+
+        </ul>
+      </div>
+      <div class="col-md-1">
+        <h3>Reggae</h3>
+        <ul class="Reggae" >
+
+        </ul>
+      </div>
+      <div class="col-md-1">
+        <h3>Rock</h3>
+        <ul class="Rock" >
+
+        </ul>
+      </div>
+      <div class="col-md-1">
+        <h3>Singer/Songwriter</h3>
+        <ul class="Singer-Songwriter" >
+        </ul>
+      </div>
+    </div>
+  </div>
   </body>
 </html>
