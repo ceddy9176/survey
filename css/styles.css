@@ -1,9 +1,21 @@
-h1 {
-  text-align: center;
+body {
+  background-color: gray;
 }
 
-.contaner {
+h1 {
+  text-align: center;
+  color: darkred;
+}
 
+h2 {
+  font-size: 25px;
+  color: darkblue;
+}
+
+h3 {
+  font-size: 13px;
+  font-style: oblique;
+  color: white;
 }
 
 form {
@@ -19,13 +31,8 @@ ul {
   list-style-type: none;
 }
 
-h3 {
-  font-size: 13px;
-  font-style: oblique;
-}
-
-body {
-  background-color: gray;
+li {
+  text-indent: -10000px;
 }
 
 #survey-box {
@@ -33,15 +40,16 @@ body {
   background-color: white;
   padding: 20px;
   min-height: 100%;
-
 }
 
 #submitButton {
   background: #556384;
 }
+
 .classical{
   background-color: black;
 }
+
 .alternative {
   background-color: blue;
 }
@@ -84,11 +92,4 @@ body {
 
 .Singer-Songwriter {
   background-color: magenta;
-}
-h3 {
-  color: white;
-}
-
-li {
-  text-indent: -1000px;
 }

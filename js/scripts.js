@@ -1,8 +1,5 @@
 $(document).ready(function(){
   $("button[type='submit']").click(function(){
-
-  });
-  $("button[type='submit']").click(function(){
     var form = document.getElementById("name");
     form.reset();
     var form = document.getElementById("form-group");
