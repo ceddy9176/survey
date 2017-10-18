@@ -1,5 +1,18 @@
 $(document).ready(function(){
   $("button[type='submit']").click(function(){
+
+  });
+  $("button[type='submit']").click(function(){
+    var form = document.getElementById("name");
+    form.reset();
+    var form = document.getElementById("form-group");
+    form.reset();
+    var ele = document.getElementsByName("species");
+    for(var i=0;i<ele.length;i++)
+      ele[i].checked = false;
+  });
+  $("button[type='submit']").click(function(){
+
     var radioValue = $("input[value='Altenative']:checked").val();
     if(radioValue){
       $("ul.alternative").append("<li>*</li>");
